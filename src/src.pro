@@ -11,7 +11,7 @@ SOURCES += *cpp
 HEADERS +=*.h
 
 PROJECT_ROOT = $$PWD/..
-DIR_THIRD_PARTY = $$PROJECT_ROOT/third-party
+DIR_THIRD_PARTY = $$PROJECT_ROOT/3rd-party
 DIR_THIRD_PARTY_PREFIX = $$DIR_THIRD_PARTY/out
 
 CONFIG(debug, debug|release) {
@@ -28,6 +28,6 @@ UI_DIR = $$DESTDIR/.ui/$$PROJECTFILENAME
 
 
 LIBS += -L$$DIR_THIRD_PARTY_PREFIX/lib
-LIBS += -lLogger
+LIBS += -lCuteLogger
 
 INCLUDEPATH += $$DIR_THIRD_PARTY_PREFIX/include
