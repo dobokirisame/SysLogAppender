@@ -1,7 +1,7 @@
 #!/bin/bash
 source environment
 
-cd cutelogger
+cd CuteLogger
 mkdir -p BUILD_DIR
 qmake "OBJECTS_DIR=BUILD_DIR" "DESTDIR=${DESTDIR}" "DLLDESTDIR=${BINDIR}" -spec ${QMAKESPEC} CONFIG+=release CuteLogger.pro
 make ${MAKEOPTS}
