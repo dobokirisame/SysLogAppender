@@ -1,0 +1,8 @@
+*.autosave
+*.stash
+*.log
+*.pro.user
+Makefile
+qrc_icons.cpp
+build/*
+3rd-party/out/*
