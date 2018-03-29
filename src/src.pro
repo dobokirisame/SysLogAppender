@@ -16,7 +16,7 @@ DIR_THIRD_PARTY_PREFIX = $$DIR_THIRD_PARTY/out
 
 CONFIG(debug, debug|release) {
         DIR_OUTPUT = $$PROJECT_ROOT/build/debug
-        DEFINES += COMPILER_EXPLORER_DEBUG
+        DEFINES += SYSLOG_APPENDER_DEBUG
 }
 CONFIG(release, debug|release) {
         DIR_OUTPUT = $$PROJECT_ROOT/build/release
